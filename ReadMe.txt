@@ -1,7 +1,3 @@
-Sunand Iyer
-sri2117
-Project 3
-
 File Name: nn.py
 
 Function Name: partitionData(data, p)
@@ -110,31 +106,6 @@ through key in the main dictionary and adds the accuracy for the metric to the n
 The function then finds the key that is associated with the maximum accuracy value. The function 
 then finds the best k value for the given key. This is the best k value distance metric combination.
 The function then prints out the results.
-
-Program runs as described. When I run my program the k values vary a bit but generally stay the same.
-For the euclidean distance metric the best k value is generally 11 for the Breast Cancer Data set and
-15 for the Synthetic Data Set. For the cityblock distance metric the best k value is either 7 or 9 for 
-the Breast Cancer Data Set and either 15 or 13 for the Synthetic Data Set. For the cosine distance metric
-the best k value is either 11 or 13 for the Breast Cancer Data Set and 15 for the Synthetic Data Set.
-The best distance metric and k value combination always seems to be cityblock and k equals 7 for the Breast 
-Cancer Data Set. For the Synthetic Data Set it sometimes is cityblock with a k value of 15 and occasionally 
-is euclidean with a k value of 9. When I run the code, sometimes it takes about 4.5 minutes and other times it 
-takes about 1.5 minutes. 
-Below is a sample of the output produced by the main function:
-
-Best k values using euclidean distance metric 
-     Breast Cancer Data Set: 11 with an accuracy of 0.9320943952802359 
-     Synthetic Data Set: 15 with an accuracy of 0.8372333333333333
-Best k values using cityblock distance metric 
-     Breast Cancer Data Set: 7 with an accuracy of 0.9383102002794598 
-     Synthetic Data Set: 15 with an accuracy of 0.8384
-Best k values using cosine distance metric 
-     Breast Cancer Data Set: 13 with an accuracy of 0.9254522589659987 
-     Synthetic Data Set: 15 with an accuracy of 0.6978
-Best metric for Breast Cancer is cityblock with a k value of 7 
-and an accuracy of 0.9383102002794598
-Best metric for Synthetic Data is cityblock with a k value of 15 
-and an accuracy of 0.8384
 
 
 
