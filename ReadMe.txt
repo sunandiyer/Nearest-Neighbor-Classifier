@@ -1,6 +1,3 @@
-Sunand Iyer
-sri2117
-Project 3
 
 File Name: nn.py
 
